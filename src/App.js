@@ -22,9 +22,7 @@ render() {
               <div className="form-group files">
                 <label>Upload Your File </label>
                 <input type="file" name="file" className="form-control" onChange={this.onChangeHandler}/>
-              </div>
-              <div className="col-md-6 pull-right">
-              <button width="100%" type="button" className="btn btn-info" onClick={this.fileUploadHandler}>Upload File</button>
+                <button width="100%" type="button" className="btn btn-info" onClick={this.fileUploadHandler}>Upload File</button>
               </div>
           </form>
     </div>
